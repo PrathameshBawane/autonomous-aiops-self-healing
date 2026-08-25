@@ -93,7 +93,7 @@ LangGraph is used to coordinate the workflow between the agents.
 
 ## Project Demo
 
-[▶ Watch the Project Demo](demo/aiops-demo.mp4)
+[▶ Watch the Project Demo](aiops_project/demo/aiops-demo.mp4)
 
 ## Project Scope
 
