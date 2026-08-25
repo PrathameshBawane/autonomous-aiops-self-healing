@@ -1,0 +1,407 @@
+2026-05-24 14:20:20,475 - INFO - Demo server starting...
+2026-05-24 14:20:20,513 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.65.35.18:5003
+2026-05-24 14:20:20,513 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 14:20:20,515 - INFO -  * Restarting with stat
+2026-05-24 14:20:20,847 - INFO - Demo server starting...
+2026-05-24 14:20:20,865 - WARNING -  * Debugger is active!
+2026-05-24 14:20:20,868 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 14:22:14,973 - INFO - Home page visited — server healthy
+2026-05-24 14:22:14,974 - INFO - 127.0.0.1 - - [24/May/2026 14:22:14] "GET / HTTP/1.1" 200 -
+2026-05-24 14:22:15,013 - INFO - 127.0.0.1 - - [24/May/2026 14:22:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-24 14:24:26,451 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 14:24:26,461 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 14:24:28,488 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 14:24:28,491 - INFO - 127.0.0.1 - - [24/May/2026 14:24:28] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 15:17:56,963 - INFO - Demo server starting...
+2026-05-24 15:17:56,998 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.65.35.18:5003
+2026-05-24 15:17:56,998 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 15:17:56,999 - INFO -  * Restarting with stat
+2026-05-24 15:17:57,332 - INFO - Demo server starting...
+2026-05-24 15:17:57,348 - WARNING -  * Debugger is active!
+2026-05-24 15:17:57,351 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 15:19:37,774 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 15:19:37,786 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 15:19:39,826 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 15:19:39,829 - INFO - 127.0.0.1 - - [24/May/2026 15:19:39] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 15:22:17,456 - INFO - \u2705 Server healed by AIOps!
+2026-05-24 15:22:17,458 - INFO - 127.0.0.1 - - [24/May/2026 15:22:17] "POST /api/heal HTTP/1.1" 200 -
+2026-05-24 15:22:52,478 - INFO - Checkout completed successfully!
+2026-05-24 15:22:52,478 - INFO - 127.0.0.1 - - [24/May/2026 15:22:52] "GET /api/checkout HTTP/1.1" 200 -
+2026-05-24 15:28:02,375 - INFO - Database query successful!
+2026-05-24 15:28:02,376 - INFO - 127.0.0.1 - - [24/May/2026 15:28:02] "GET /api/database HTTP/1.1" 200 -
+2026-05-24 15:28:18,046 - INFO - Memory usage normal!
+2026-05-24 15:28:18,047 - INFO - 127.0.0.1 - - [24/May/2026 15:28:18] "GET /api/memory HTTP/1.1" 200 -
+2026-05-24 15:35:45,128 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\api.py', reloading
+2026-05-24 15:35:45,182 - INFO -  * Restarting with stat
+2026-05-24 15:35:45,646 - INFO - Demo server starting...
+2026-05-24 15:35:45,665 - WARNING -  * Debugger is active!
+2026-05-24 15:35:45,667 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 15:36:44,415 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\demo_server.py', reloading
+2026-05-24 15:36:44,455 - INFO -  * Restarting with stat
+2026-05-24 15:36:44,823 - INFO - Demo server starting...
+2026-05-24 15:36:44,840 - WARNING -  * Debugger is active!
+2026-05-24 15:36:44,843 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 15:38:56,012 - INFO - Demo server starting...
+2026-05-24 15:38:56,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.65.35.18:5003
+2026-05-24 15:38:56,048 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 15:38:56,049 - INFO -  * Restarting with stat
+2026-05-24 15:38:56,394 - INFO - Demo server starting...
+2026-05-24 15:38:56,411 - WARNING -  * Debugger is active!
+2026-05-24 15:38:56,414 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 15:39:41,679 - INFO - 127.0.0.1 - - [24/May/2026 15:39:41] "[33mGET /api/checkout. HTTP/1.1[0m" 404 -
+2026-05-24 15:39:57,141 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 15:39:57,146 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 15:39:59,175 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 15:39:59,177 - INFO - 127.0.0.1 - - [24/May/2026 15:39:59] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 15:47:40,849 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\api.py', reloading
+2026-05-24 15:47:40,893 - INFO -  * Restarting with stat
+2026-05-24 15:47:41,281 - INFO - Demo server starting...
+2026-05-24 15:47:41,298 - WARNING -  * Debugger is active!
+2026-05-24 15:47:41,301 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 15:48:14,376 - INFO - Demo server starting...
+2026-05-24 15:48:14,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.65.35.18:5003
+2026-05-24 15:48:14,408 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 15:48:14,409 - INFO -  * Restarting with stat
+2026-05-24 15:48:14,737 - INFO - Demo server starting...
+2026-05-24 15:48:14,753 - WARNING -  * Debugger is active!
+2026-05-24 15:48:14,755 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 15:49:48,778 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 15:49:48,782 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 15:49:50,809 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 15:49:50,812 - INFO - 127.0.0.1 - - [24/May/2026 15:49:50] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 15:52:28,273 - INFO - \u2705 Server healed by AIOps!
+2026-05-24 15:52:28,276 - INFO - 127.0.0.1 - - [24/May/2026 15:52:28] "POST /api/heal HTTP/1.1" 200 -
+2026-05-24 15:52:28,928 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\demo_server.py', reloading
+2026-05-24 15:52:29,052 - INFO -  * Restarting with stat
+2026-05-24 18:50:36,297 - INFO - Demo server starting...
+2026-05-24 18:50:36,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-24 18:50:36,499 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 18:50:36,508 - INFO -  * Restarting with stat
+2026-05-24 18:50:38,285 - INFO - Demo server starting...
+2026-05-24 18:50:38,371 - WARNING -  * Debugger is active!
+2026-05-24 18:50:38,387 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 18:52:02,655 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 18:52:02,670 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 18:52:04,694 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 18:52:04,698 - INFO - 127.0.0.1 - - [24/May/2026 18:52:04] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 18:52:04,716 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 18:52:04,719 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 18:52:06,732 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 400 45
+2026-05-24 18:52:06,735 - INFO - 127.0.0.1 - - [24/May/2026 18:52:06] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 18:52:06,794 - INFO - 127.0.0.1 - - [24/May/2026 18:52:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-24 18:55:11,125 - INFO - \u2705 Server healed by AIOps!
+2026-05-24 18:55:11,130 - INFO - 127.0.0.1 - - [24/May/2026 18:55:11] "POST /api/heal HTTP/1.1" 200 -
+2026-05-24 18:55:18,008 - INFO - Checkout completed successfully!
+2026-05-24 18:55:18,009 - INFO - 127.0.0.1 - - [24/May/2026 18:55:18] "GET /api/checkout HTTP/1.1" 200 -
+2026-05-24 23:05:29,509 - INFO - Demo server starting...
+2026-05-24 23:05:29,566 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-24 23:05:29,566 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 23:05:29,569 - INFO -  * Restarting with stat
+2026-05-24 23:05:30,334 - INFO - Demo server starting...
+2026-05-24 23:05:30,367 - WARNING -  * Debugger is active!
+2026-05-24 23:05:30,373 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 23:06:29,353 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 23:06:29,365 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 23:06:31,407 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 23:06:31,411 - INFO - 127.0.0.1 - - [24/May/2026 23:06:31] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 23:06:31,435 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 23:06:31,438 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 23:06:33,463 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 400 45
+2026-05-24 23:06:33,466 - INFO - 127.0.0.1 - - [24/May/2026 23:06:33] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 23:06:33,537 - INFO - 127.0.0.1 - - [24/May/2026 23:06:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-24 23:08:01,988 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 23:08:01,993 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 23:08:04,014 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 23:08:04,016 - INFO - 127.0.0.1 - - [24/May/2026 23:08:04] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 23:08:59,654 - INFO - \u2705 Server healed by AIOps!
+2026-05-24 23:08:59,657 - INFO - 127.0.0.1 - - [24/May/2026 23:08:59] "POST /api/heal HTTP/1.1" 200 -
+2026-05-24 23:08:59,829 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\demo_server_backup.py', reloading
+2026-05-24 23:09:00,017 - INFO -  * Restarting with stat
+2026-05-24 23:12:05,510 - INFO -  * Restarting with stat
+2026-05-24 23:12:06,297 - INFO - Demo server starting...
+2026-05-24 23:12:06,325 - WARNING -  * Debugger is active!
+2026-05-24 23:12:06,329 - INFO -  * Debugger PIN: 876-513-836
+2026-05-24 23:12:10,144 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-24 23:12:10,155 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-24 23:12:12,199 - DEBUG - http://localhost:8000 "POST /api/start HTTP/1.1" 200 37
+2026-05-24 23:12:12,202 - INFO - 127.0.0.1 - - [24/May/2026 23:12:12] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-24 23:12:48,269 - INFO - \u2705 Server healed by AIOps!
+2026-05-24 23:12:48,271 - INFO - 127.0.0.1 - - [24/May/2026 23:12:48] "POST /api/heal HTTP/1.1" 200 -
+2026-05-24 23:12:48,590 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\demo_server.py', reloading
+2026-05-24 23:12:48,724 - INFO -  * Restarting with stat
+2026-05-25 14:03:30,251 - INFO - Demo server starting...
+2026-05-25 14:03:30,317 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 14:03:30,317 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:03:30,319 - INFO -  * Restarting with stat
+2026-05-25 14:03:30,788 - INFO - Demo server starting...
+2026-05-25 14:03:30,814 - WARNING -  * Debugger is active!
+2026-05-25 14:03:30,819 - INFO -  * Debugger PIN: 876-513-836
+2026-05-25 14:03:55,411 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-25 14:03:55,423 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-25 14:03:59,453 - INFO - 127.0.0.1 - - [25/May/2026 14:03:59] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:03:59,469 - ERROR - CRITICAL ERROR - Checkout failed! Database connection lost on port 5432
+2026-05-25 14:03:59,470 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-25 14:04:03,489 - INFO - 127.0.0.1 - - [25/May/2026 14:04:03] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:04:03,529 - INFO - 127.0.0.1 - - [25/May/2026 14:04:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-25 14:05:38,185 - ERROR - CRITICAL ERROR - Memory usage at 98%! Server overloaded
+2026-05-25 14:05:38,189 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-25 14:05:42,205 - INFO - 127.0.0.1 - - [25/May/2026 14:05:42] "[35m[1mGET /api/memory HTTP/1.1[0m" 500 -
+2026-05-25 14:06:02,381 - INFO - 127.0.0.1 - - [25/May/2026 14:06:02] "[31m[1mGET /api/heal HTTP/1.1[0m" 405 -
+2026-05-25 14:06:19,527 - ERROR - CRITICAL ERROR - Database query timeout! PostgreSQL not responding
+2026-05-25 14:06:19,528 - DEBUG - Starting new HTTP connection (1): localhost:8000
+2026-05-25 14:06:23,534 - INFO - 127.0.0.1 - - [25/May/2026 14:06:23] "[35m[1mGET /api/database HTTP/1.1[0m" 500 -
+2026-05-25 14:15:42,302 - INFO - Demo server starting...
+2026-05-25 14:15:42,338 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 14:15:42,339 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:15:42,340 - INFO -  * Restarting with stat
+2026-05-25 14:15:42,664 - INFO - Demo server starting...
+2026-05-25 14:15:42,679 - WARNING -  * Debugger is active!
+2026-05-25 14:15:42,682 - INFO -  * Debugger PIN: 876-513-836
+2026-05-25 14:15:56,970 - INFO - 127.0.0.1 - - [25/May/2026 14:15:56] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:15:57,220 - INFO - 127.0.0.1 - - [25/May/2026 14:15:57] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:15:57,578 - INFO - 127.0.0.1 - - [25/May/2026 14:15:57] "GET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-25 14:15:57,596 - INFO - 127.0.0.1 - - [25/May/2026 14:15:57] "GET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-25 14:15:57,954 - INFO - 127.0.0.1 - - [25/May/2026 14:15:57] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=2iH3IKpbpIK2cSaMmSyU HTTP/1.1" 200 -
+2026-05-25 14:15:58,200 - INFO - 127.0.0.1 - - [25/May/2026 14:15:58] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-25 14:16:14,317 - INFO - 127.0.0.1 - - [25/May/2026 14:16:14] "[35m[1mGET /api/database HTTP/1.1[0m" 500 -
+2026-05-25 14:16:14,625 - INFO - 127.0.0.1 - - [25/May/2026 14:16:14] "GET /api/database?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-25 14:16:14,655 - INFO - 127.0.0.1 - - [25/May/2026 14:16:14] "GET /api/database?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-25 14:16:14,981 - INFO - 127.0.0.1 - - [25/May/2026 14:16:14] "GET /api/database?__debugger__=yes&cmd=resource&f=console.png&s=2iH3IKpbpIK2cSaMmSyU HTTP/1.1" 200 -
+2026-05-25 14:16:15,243 - INFO - 127.0.0.1 - - [25/May/2026 14:16:15] "GET /api/database?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-25 14:17:15,261 - INFO - 127.0.0.1 - - [25/May/2026 14:17:15] "[35m[1mGET /api/memory HTTP/1.1[0m" 500 -
+2026-05-25 14:26:31,768 - INFO - Demo server starting...
+2026-05-25 14:26:31,812 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 14:26:31,812 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:26:31,814 - INFO -  * Restarting with stat
+2026-05-25 14:26:32,223 - INFO - Demo server starting...
+2026-05-25 14:26:32,246 - WARNING -  * Debugger is active!
+2026-05-25 14:26:32,250 - INFO -  * Debugger PIN: 876-513-836
+2026-05-25 14:26:46,134 - INFO - 127.0.0.1 - - [25/May/2026 14:26:46] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:26:51,924 - INFO - 127.0.0.1 - - [25/May/2026 14:26:51] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:26:52,265 - INFO - 127.0.0.1 - - [25/May/2026 14:26:52] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 14:26:52,268 - INFO - 127.0.0.1 - - [25/May/2026 14:26:52] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 14:26:52,618 - INFO - 127.0.0.1 - - [25/May/2026 14:26:52] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=7GB9QSIMMwGqthODPLbd HTTP/1.1" 200 -
+2026-05-25 14:27:02,427 - INFO - 127.0.0.1 - - [25/May/2026 14:27:02] "[35m[1mGET /api/database HTTP/1.1[0m" 500 -
+2026-05-25 14:27:02,732 - INFO - 127.0.0.1 - - [25/May/2026 14:27:02] "[36mGET /api/database?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 14:27:02,764 - INFO - 127.0.0.1 - - [25/May/2026 14:27:02] "[36mGET /api/database?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 14:27:03,090 - INFO - 127.0.0.1 - - [25/May/2026 14:27:03] "GET /api/database?__debugger__=yes&cmd=resource&f=console.png&s=7GB9QSIMMwGqthODPLbd HTTP/1.1" 200 -
+2026-05-25 14:32:30,190 - INFO - Demo server starting...
+2026-05-25 14:32:30,285 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 14:32:30,285 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:32:30,289 - INFO -  * Restarting with stat
+2026-05-25 14:32:30,724 - INFO - Demo server starting...
+2026-05-25 14:32:30,743 - WARNING -  * Debugger is active!
+2026-05-25 14:32:30,748 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:32:42,145 - INFO - 127.0.0.1 - - [25/May/2026 14:32:42] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:32:42,678 - INFO - 127.0.0.1 - - [25/May/2026 14:32:42] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:32:43,048 - INFO - 127.0.0.1 - - [25/May/2026 14:32:43] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 14:32:43,053 - INFO - 127.0.0.1 - - [25/May/2026 14:32:43] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 14:32:43,402 - INFO - 127.0.0.1 - - [25/May/2026 14:32:43] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=x7JCI2qBT72lrAJrwGXi HTTP/1.1" 200 -
+2026-05-25 14:36:53,242 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\demo_server.py', reloading
+2026-05-25 14:36:53,281 - INFO -  * Restarting with stat
+2026-05-25 14:36:53,771 - INFO - Demo server starting...
+2026-05-25 14:36:53,801 - WARNING -  * Debugger is active!
+2026-05-25 14:36:53,804 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:38:04,040 - INFO - Demo server starting...
+2026-05-25 14:38:04,071 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 14:38:04,071 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:38:04,072 - INFO -  * Restarting with stat
+2026-05-25 14:38:04,416 - INFO - Demo server starting...
+2026-05-25 14:38:04,432 - WARNING -  * Debugger is active!
+2026-05-25 14:38:04,435 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:39:09,785 - INFO - 127.0.0.1 - - [25/May/2026 14:39:09] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:39:10,564 - INFO - 127.0.0.1 - - [25/May/2026 14:39:10] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:39:10,895 - INFO - 127.0.0.1 - - [25/May/2026 14:39:10] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 14:39:10,906 - INFO - 127.0.0.1 - - [25/May/2026 14:39:10] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 14:39:11,248 - INFO - 127.0.0.1 - - [25/May/2026 14:39:11] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=vBoMxkkHpBvTYlQpo9hM HTTP/1.1" 200 -
+2026-05-25 14:41:19,759 - INFO - Demo server starting...
+2026-05-25 14:41:19,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 14:41:19,815 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 14:41:19,816 - INFO -  * Restarting with stat
+2026-05-25 14:41:20,152 - INFO - Demo server starting...
+2026-05-25 14:41:20,168 - WARNING -  * Debugger is active!
+2026-05-25 14:41:20,172 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:42:45,415 - INFO - 127.0.0.1 - - [25/May/2026 14:42:45] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:42:45,737 - INFO - 127.0.0.1 - - [25/May/2026 14:42:45] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:42:46,082 - INFO - 127.0.0.1 - - [25/May/2026 14:42:46] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 14:42:46,117 - INFO - 127.0.0.1 - - [25/May/2026 14:42:46] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 14:42:46,465 - INFO - 127.0.0.1 - - [25/May/2026 14:42:46] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=jYA7y8xWMPB6KwHO5M86 HTTP/1.1" 200 -
+2026-05-25 14:43:30,098 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\patch_to_test.py', reloading
+2026-05-25 14:43:30,143 - INFO -  * Restarting with stat
+2026-05-25 14:43:30,605 - INFO - Demo server starting...
+2026-05-25 14:43:30,626 - WARNING -  * Debugger is active!
+2026-05-25 14:43:30,629 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:44:43,602 - INFO - 127.0.0.1 - - [25/May/2026 14:44:43] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 14:44:43,650 - INFO - 127.0.0.1 - - [25/May/2026 14:44:43] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 14:44:43,839 - INFO - 127.0.0.1 - - [25/May/2026 14:44:43] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 14:44:44,167 - INFO - 127.0.0.1 - - [25/May/2026 14:44:44] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=iGw00hKYOgfuToyxR6Jn HTTP/1.1" 200 -
+2026-05-25 14:44:44,416 - INFO - 127.0.0.1 - - [25/May/2026 14:44:44] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-25 14:45:09,345 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\patch_to_test.py', reloading
+2026-05-25 14:45:09,387 - INFO -  * Restarting with stat
+2026-05-25 14:45:09,744 - INFO - Demo server starting...
+2026-05-25 14:45:09,760 - WARNING -  * Debugger is active!
+2026-05-25 14:45:09,763 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:53:26,109 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\agents\\docker_sandbox.py', reloading
+2026-05-25 14:53:26,145 - INFO -  * Restarting with stat
+2026-05-25 14:53:26,554 - INFO - Demo server starting...
+2026-05-25 14:53:26,571 - WARNING -  * Debugger is active!
+2026-05-25 14:53:26,574 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 14:54:34,538 - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\aiops_project\\demo_server.py', reloading
+2026-05-25 14:54:34,569 - INFO -  * Restarting with stat
+2026-05-25 14:54:34,947 - INFO - Demo server starting...
+2026-05-25 14:54:34,963 - WARNING -  * Debugger is active!
+2026-05-25 14:54:34,966 - INFO -  * Debugger PIN: 413-571-588
+2026-05-25 15:00:37,780 - INFO - Demo server starting...
+2026-05-25 15:00:37,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-25 15:00:37,811 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-25 15:01:31,834 - INFO - 127.0.0.1 - - [25/May/2026 15:01:31] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 15:01:31,886 - INFO - 127.0.0.1 - - [25/May/2026 15:01:31] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 15:01:32,087 - INFO - 127.0.0.1 - - [25/May/2026 15:01:32] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 15:01:32,401 - INFO - 127.0.0.1 - - [25/May/2026 15:01:32] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=WZ8ImedomOpY0Osf2apK HTTP/1.1" 200 -
+2026-05-25 15:01:32,665 - INFO - 127.0.0.1 - - [25/May/2026 15:01:32] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-25 15:03:21,079 - INFO - 127.0.0.1 - - [25/May/2026 15:03:21] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-25 15:03:21,101 - INFO - 127.0.0.1 - - [25/May/2026 15:03:21] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-25 15:03:21,337 - INFO - 127.0.0.1 - - [25/May/2026 15:03:21] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-25 15:03:21,650 - INFO - 127.0.0.1 - - [25/May/2026 15:03:21] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=WZ8ImedomOpY0Osf2apK HTTP/1.1[0m" 304 -
+2026-05-25 15:03:21,916 - INFO - 127.0.0.1 - - [25/May/2026 15:03:21] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-26 06:22:25,697 - INFO - Demo server starting...
+2026-05-26 06:22:25,756 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.59.174.18:5003
+2026-05-26 06:22:25,756 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-26 06:23:11,639 - INFO - 127.0.0.1 - - [26/May/2026 06:23:11] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 06:23:11,888 - INFO - 127.0.0.1 - - [26/May/2026 06:23:11] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 06:23:12,180 - INFO - 127.0.0.1 - - [26/May/2026 06:23:12] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 06:23:12,239 - INFO - 127.0.0.1 - - [26/May/2026 06:23:12] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 06:23:12,293 - INFO - 127.0.0.1 - - [26/May/2026 06:23:12] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=ghLxpY6fM2Gguak00Phe HTTP/1.1" 200 -
+2026-05-26 06:24:51,221 - INFO - 127.0.0.1 - - [26/May/2026 06:24:51] "POST /api/heal HTTP/1.1" 200 -
+2026-05-26 06:25:07,977 - INFO - 127.0.0.1 - - [26/May/2026 06:25:07] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 06:25:07,998 - INFO - 127.0.0.1 - - [26/May/2026 06:25:07] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 06:25:08,217 - INFO - 127.0.0.1 - - [26/May/2026 06:25:08] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 06:25:08,545 - INFO - 127.0.0.1 - - [26/May/2026 06:25:08] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=ghLxpY6fM2Gguak00Phe HTTP/1.1[0m" 304 -
+2026-05-26 06:25:08,788 - INFO - 127.0.0.1 - - [26/May/2026 06:25:08] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-26 06:27:09,054 - INFO - 127.0.0.1 - - [26/May/2026 06:27:09] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 06:27:09,072 - INFO - 127.0.0.1 - - [26/May/2026 06:27:09] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 06:27:09,302 - INFO - 127.0.0.1 - - [26/May/2026 06:27:09] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 06:27:09,626 - INFO - 127.0.0.1 - - [26/May/2026 06:27:09] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=ghLxpY6fM2Gguak00Phe HTTP/1.1[0m" 304 -
+2026-05-26 06:27:09,887 - INFO - 127.0.0.1 - - [26/May/2026 06:27:09] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-26 06:41:44,832 - INFO - Demo server starting...
+2026-05-26 06:41:44,849 - WARNING -  * Debugger is active!
+2026-05-26 06:41:44,852 - INFO -  * Debugger PIN: 413-571-588
+2026-05-26 10:39:23,050 - INFO - Demo server starting...
+2026-05-26 10:39:23,108 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.158.185.18:5003
+2026-05-26 10:39:23,109 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-26 10:40:39,795 - INFO - 127.0.0.1 - - [26/May/2026 10:40:39] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 10:40:40,047 - INFO - 127.0.0.1 - - [26/May/2026 10:40:40] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 10:40:40,405 - INFO - 127.0.0.1 - - [26/May/2026 10:40:40] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 10:40:40,558 - INFO - 127.0.0.1 - - [26/May/2026 10:40:40] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 10:40:40,674 - INFO - 127.0.0.1 - - [26/May/2026 10:40:40] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=2zieR9A8sjTcUKbIC7zE HTTP/1.1" 200 -
+2026-05-26 10:40:41,021 - INFO - 127.0.0.1 - - [26/May/2026 10:40:41] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-26 10:41:42,861 - INFO - 127.0.0.1 - - [26/May/2026 10:41:42] "POST /api/heal HTTP/1.1" 200 -
+2026-05-26 10:41:48,352 - INFO - 127.0.0.1 - - [26/May/2026 10:41:48] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 10:41:48,415 - INFO - 127.0.0.1 - - [26/May/2026 10:41:48] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 10:41:48,561 - INFO - 127.0.0.1 - - [26/May/2026 10:41:48] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 10:41:48,906 - INFO - 127.0.0.1 - - [26/May/2026 10:41:48] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=2zieR9A8sjTcUKbIC7zE HTTP/1.1[0m" 304 -
+2026-05-26 10:41:49,155 - INFO - 127.0.0.1 - - [26/May/2026 10:41:49] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-26 10:41:52,794 - INFO - 127.0.0.1 - - [26/May/2026 10:41:52] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 10:41:53,901 - INFO - 127.0.0.1 - - [26/May/2026 10:41:53] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 10:41:53,947 - INFO - 127.0.0.1 - - [26/May/2026 10:41:53] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 10:41:54,110 - INFO - 127.0.0.1 - - [26/May/2026 10:41:54] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 10:41:54,533 - INFO - 127.0.0.1 - - [26/May/2026 10:41:54] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=2zieR9A8sjTcUKbIC7zE HTTP/1.1[0m" 304 -
+2026-05-26 13:43:14,981 - INFO - Demo server starting...
+2026-05-26 13:43:15,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.29.48.18:5003
+2026-05-26 13:43:15,050 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-26 13:45:33,594 - INFO - 127.0.0.1 - - [26/May/2026 13:45:33] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 13:45:33,833 - INFO - 127.0.0.1 - - [26/May/2026 13:45:33] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 13:45:33,946 - INFO - 127.0.0.1 - - [26/May/2026 13:45:33] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 13:45:34,361 - INFO - 127.0.0.1 - - [26/May/2026 13:45:34] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=lHWE4Gj5scgfTxMoUa5S HTTP/1.1" 200 -
+2026-05-26 13:45:34,625 - INFO - 127.0.0.1 - - [26/May/2026 13:45:34] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-26 13:45:43,543 - INFO - 127.0.0.1 - - [26/May/2026 13:45:43] "[35m[1mGET /api/database HTTP/1.1[0m" 500 -
+2026-05-26 13:45:44,597 - INFO - 127.0.0.1 - - [26/May/2026 13:45:44] "[35m[1mGET /api/database HTTP/1.1[0m" 500 -
+2026-05-26 13:45:44,637 - INFO - 127.0.0.1 - - [26/May/2026 13:45:44] "[36mGET /api/database?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 13:45:44,805 - INFO - 127.0.0.1 - - [26/May/2026 13:45:44] "[36mGET /api/database?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 13:45:45,132 - INFO - 127.0.0.1 - - [26/May/2026 13:45:45] "GET /api/database?__debugger__=yes&cmd=resource&f=console.png&s=lHWE4Gj5scgfTxMoUa5S HTTP/1.1" 200 -
+2026-05-26 13:46:13,555 - INFO - 127.0.0.1 - - [26/May/2026 13:46:13] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 13:46:13,844 - INFO - 127.0.0.1 - - [26/May/2026 13:46:13] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 13:46:13,890 - INFO - 127.0.0.1 - - [26/May/2026 13:46:13] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 13:46:14,215 - INFO - 127.0.0.1 - - [26/May/2026 13:46:14] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=lHWE4Gj5scgfTxMoUa5S HTTP/1.1[0m" 304 -
+2026-05-26 14:28:11,436 - INFO - Demo server starting...
+2026-05-26 14:28:11,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.158.185.18:5003
+2026-05-26 14:28:11,501 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-26 14:28:20,748 - INFO - 127.0.0.1 - - [26/May/2026 14:28:20] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-05-26 14:28:20,964 - INFO - 127.0.0.1 - - [26/May/2026 14:28:20] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-26 14:28:21,075 - INFO - 127.0.0.1 - - [26/May/2026 14:28:21] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-26 14:28:21,411 - INFO - 127.0.0.1 - - [26/May/2026 14:28:21] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=oUKiZQOrjUckcI6hGbrI HTTP/1.1" 200 -
+2026-05-26 14:28:21,673 - INFO - 127.0.0.1 - - [26/May/2026 14:28:21] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-01 13:31:16,230 - INFO - Demo server starting...
+2026-06-01 13:31:16,563 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.195.199.18:5003
+2026-06-01 13:31:16,565 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-01 13:31:43,503 - INFO - 127.0.0.1 - - [01/Jun/2026 13:31:43] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-06-01 13:31:44,006 - INFO - 127.0.0.1 - - [01/Jun/2026 13:31:44] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-01 13:31:44,017 - INFO - 127.0.0.1 - - [01/Jun/2026 13:31:44] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-01 13:31:44,538 - INFO - 127.0.0.1 - - [01/Jun/2026 13:31:44] "GET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=dh30FG5zcqbk3gveXgeV HTTP/1.1" 200 -
+2026-06-01 13:31:44,783 - INFO - 127.0.0.1 - - [01/Jun/2026 13:31:44] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-01 13:33:09,159 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:09] "POST /api/heal HTTP/1.1" 200 -
+2026-06-01 13:33:12,629 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:12] "POST /api/heal HTTP/1.1" 200 -
+2026-06-01 13:33:15,011 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:15] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-06-01 13:33:15,071 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:15] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-01 13:33:15,211 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:15] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-01 13:33:15,570 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:15] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=dh30FG5zcqbk3gveXgeV HTTP/1.1[0m" 304 -
+2026-06-01 13:33:15,834 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:15] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-01 13:33:23,841 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:23] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-06-01 13:33:24,963 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:24] "[35m[1mGET /api/checkout HTTP/1.1[0m" 500 -
+2026-06-01 13:33:25,021 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:25] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-01 13:33:25,162 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:25] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-01 13:33:25,599 - INFO - 127.0.0.1 - - [01/Jun/2026 13:33:25] "[36mGET /api/checkout?__debugger__=yes&cmd=resource&f=console.png&s=dh30FG5zcqbk3gveXgeV HTTP/1.1[0m" 304 -

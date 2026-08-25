@@ -1,0 +1,6 @@
+flask
+requests
+mistralai
+python-dotenv
+langgraph
+langchain-core

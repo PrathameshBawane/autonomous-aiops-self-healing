@@ -1,0 +1,13 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+RUN pip install flask flask-cors requests python-dotenv \
+    mistralai langchain-core langgraph \
+    collections-extended
+
+COPY patch_to_test.py app.py
+
+EXPOSE 5000
+
+CMD ["python", "-u", "app.py"]
