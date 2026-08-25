@@ -1,4 +1,4 @@
-## Autonomous AIOps – Multi-Agent Self-Healing System
+# Autonomous AIOps – Multi-Agent Self-Healing System
 
 An academic prototype demonstrating a basic multi-agent AIOps workflow for detecting server errors, analyzing logs, generating possible fixes, validating them in a Docker sandbox, and sending the result for human approval.
 
@@ -6,7 +6,7 @@ Project Status: Academic prototype / basic implementation
 Development: Manual development
 Note: This project is not intended to represent a production-grade autonomous self-healing system.
 
-# Overview
+## Overview
 
 Modern applications generate large amounts of logs, making manual error detection and troubleshooting time-consuming.
 
@@ -32,7 +32,7 @@ Application / Server
         ↓
      Apply Fix
      
-# Multi-Agent Workflow
+## Multi-Agent Workflow
 
 1. Sentry Agent
 
@@ -54,7 +54,7 @@ Tests and validates the generated fix in an isolated Docker environment before i
 
 The proposed fix is presented for human review. The administrator can approve or reject the proposed action.
 
-# Technologies Used
+## Technologies Used
 Python
 LangGraph
 Mistral AI
@@ -64,7 +64,7 @@ Multi-Agent AI
 Log Analysis
 DevOps Automation
 
-# Key Features
+## Key Features
 Multi-agent workflow
 Log-based error detection
 Automated log analysis
@@ -73,7 +73,7 @@ Docker-based validation
 Human approval before applying a fix
 Feedback/retry workflow
 
-# Project Architecture
+## Project Architecture
 
 The system consists of four main agents:
 
@@ -89,11 +89,11 @@ Human Administrator
 
 LangGraph is used to coordinate the workflow between the agents.
 
-# Project Demo
+## Project Demo
 
 [▶ Watch the Project Demo](demo/aiops-demo.mp4)
 
-# Project Scope
+## Project Scope
 
 This implementation is a basic academic prototype intended to demonstrate the concept of multi-agent AIOps and self-healing workflows.
 
@@ -110,7 +110,7 @@ More robust security controls
 Integration with cloud infrastructure
 Better handling of complex incidents
 
-# Team
+## Team
 Prathamesh Bawane
 Rohit Pathe
 Sagar Shrivas
@@ -120,7 +120,7 @@ Department of Artificial Intelligence
 G H Raisoni College of Engineering
 2026
 
-## Disclaimer
+# Disclaimer
 
 This repository contains an academic project developed as a learning prototype.
 
